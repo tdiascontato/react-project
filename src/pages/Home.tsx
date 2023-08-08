@@ -1,6 +1,10 @@
+import { HomeStyle } from "../styles/homeStyle";
 
 export default function Home(){
   return (
-    <div>Home</div>
+    <HomeStyle>
+      <p>OK!</p>
+      <p>Jaé!</p>
+    </HomeStyle>
   )
 }

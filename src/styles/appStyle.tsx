@@ -2,12 +2,11 @@ import { styled } from "styled-components";
 export const AppContainer = styled.div`
 
 
-.ContainerApp{
+    .ContainerApp{
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 720px;
-        background-color: gray;
     }
     .NavBarContainer{
         display: flex;
