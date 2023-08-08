@@ -5,7 +5,7 @@ export const FooterContainer = styled.footer`
     width: 100%;
     padding: auto 65px;
     hr{
-        width: 80%;
+        width: 85%;
     }
 `;
 export const MenuFooter = styled.ul`
@@ -45,5 +45,8 @@ export const Icons = styled.div`
     }
 `;
 export const Text = styled.text`
-    padding: 10px 70px
+    padding: 10px 70px;
+    color: #515151;
+    font-size: 12px;
+    font-weight: 400;
 `;

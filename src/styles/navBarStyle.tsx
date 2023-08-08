@@ -7,6 +7,13 @@ export const ContainerNavBar = styled.div`
     align-items: center;
     padding: 0 65px;
     background-color: #f0f0f0;
+
+    @media (max-width:450px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 export const Logo = styled.text`
     color: #018762;
